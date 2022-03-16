@@ -1,12 +1,10 @@
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:raaz/config/config.dart';
-import 'package:raaz/pages/tabs/home_tab.dart';
-import 'package:raaz/pages/tabs/profile_tab.dart';
-import 'package:raaz/pages/tabs/sliver_timeline_tab.dart';
-import 'package:raaz/pages/tabs/timeline_tab.dart';
+import 'package:raaz/pages/home_tabs/home_tab.dart';
+import 'package:raaz/pages/home_tabs/profile_tab.dart';
+import 'package:raaz/pages/home_tabs/sliver_timeline_tab.dart';
+import 'package:raaz/pages/home_tabs/timeline_tab.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);

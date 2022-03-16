@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:raaz/config/colors.dart';
 import 'package:raaz/config/template.dart';
-import 'package:raaz/main.dart';
 
 class AppTemplates {
   static Template browny = Template(
@@ -32,9 +31,7 @@ ThemeData brownyLightTheme = ThemeData(
   ),
   colorScheme: ColorScheme(
     primary: AppColors.orange, //0.12th part is OverlayColor of textbutton.
-    primaryVariant: AppColors.orange,
     secondary: AppColors.orange,
-    secondaryVariant: AppColors.orange,
     surface: AppColors.orange,
     background: AppColors.orange,
     error: AppColors.orange,
@@ -48,7 +45,9 @@ ThemeData brownyLightTheme = ThemeData(
   ),
   androidOverscrollIndicator: AndroidOverscrollIndicator.stretch,
 );
-ThemeData brownyDarkTheme = ThemeData();
+ThemeData brownyDarkTheme = ThemeData(
+  scaffoldBackgroundColor: AppColors.brown,
+);
 List<LinearGradient> brownyGradients = [
   const LinearGradient(
     colors: [

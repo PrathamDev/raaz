@@ -4,7 +4,7 @@ import 'package:flutter/src/rendering/sliver_persistent_header.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:raaz/config/colors.dart';
 import 'package:raaz/config/config.dart';
-import 'package:raaz/widgets/timeline_widgets/status_widget.dart';
+import 'package:raaz/widgets/home_page_widgets/timeline_widgets/status_widget.dart';
 
 class TimelineHeader implements SliverPersistentHeaderDelegate {
   final double minimumExtent;

@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:raaz/config/config.dart';
 import 'package:raaz/pages/home_page.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   Config.template.initialize();
   runApp(const App());
 }

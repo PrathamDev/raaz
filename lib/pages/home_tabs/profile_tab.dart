@@ -5,9 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:raaz/config/colors.dart';
 import 'package:raaz/config/config.dart';
-import 'package:raaz/pages/tabs/profile_tile.dart';
-import 'package:raaz/widgets/animation/fadeInZoomInImage.dart';
-import 'package:raaz/widgets/profile_widgets/profile_heading.dart';
+import 'package:raaz/pages/home_tabs/profile_tile.dart';
+import 'package:raaz/widgets/home_page_widgets/profile_widgets/profile_heading.dart';
 
 class ProfileTab extends StatefulWidget {
   const ProfileTab({Key? key}) : super(key: key);

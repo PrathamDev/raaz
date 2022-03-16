@@ -6,7 +6,7 @@ import 'package:raaz/config/colors.dart';
 import 'package:raaz/config/config.dart';
 import 'package:raaz/widgets/animation/fadeInZoomInImage.dart';
 import 'package:raaz/widgets/animation/upwardfadedtext.dart';
-import 'package:raaz/widgets/home_widgets/draft_tile.dart';
+import 'package:raaz/widgets/home_page_widgets/home_widgets/draft_tile.dart';
 
 class HomeTab extends StatefulWidget {
   const HomeTab({Key? key}) : super(key: key);

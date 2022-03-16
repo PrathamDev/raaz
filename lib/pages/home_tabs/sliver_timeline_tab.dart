@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:raaz/widgets/timeline_widgets/timeline_header.dart';
-import 'package:raaz/widgets/timeline_widgets/timelineposts.dart';
+import 'package:raaz/widgets/home_page_widgets/timeline_widgets/timeline_header.dart';
+import 'package:raaz/widgets/home_page_widgets/timeline_widgets/timelineposts.dart';
 
 class SliverTimelineTab extends StatefulWidget {
   const SliverTimelineTab({Key? key}) : super(key: key);

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:raaz/config/colors.dart';
 import 'package:raaz/config/config.dart';
-import 'package:raaz/widgets/timeline_widgets/status_widget.dart';
+import 'package:raaz/widgets/home_page_widgets/timeline_widgets/status_widget.dart';
 
 class TimelinePosts extends StatefulWidget {
   const TimelinePosts({Key? key, required this.index}) : super(key: key);
